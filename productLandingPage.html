@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://cdn.usbrandcolors.com/images/logos/coca-cola-logo.svg" alt="logo coca-cola" />
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+                <li><a href="#suscribe" class="nav-link">Suscribe</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="how-it-works">
+            <h2>How it works!</h1>
+            <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/FN-apa8TKbQ"
+            frameborder="0"
+            allowfullscreen></iframe>
+        </section>
+
+        <section id="suscribe">
+            <h2>Suscribe!</h2>
+            <p>Suscribe to receive new updates.</p>
+            <form id="form" action="https://www. reecodecamp.com/email-submit">
+                <label for="mail">
+                    <input
+                     type="email"
+                     id="email"
+                     name="email"
+                     placeholder="enter your email adddress"
+                     required
+                    >
+                </label>
+                <input type="submit" value="Submit" class="btn btn-submit">
+            </form>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <p>Get your order by dec 24th</p>
+            <div class="galery">
+                <div class="box-product">
+                    <h3 class="product-title">Hodie</h3>
+                    <ul>
+                        <li class="description">Coca-cola polar bear bottle mini hoodie</li>
+                        <li class="cost">$7.95</li>
+                    </ul>
+                    <button class="btn buy">Buy now</button>
+                </div>
+                <div class="box-product">
+                    <h3 class="product-title">Coca-cola</h3>
+                    <ul>
+                        <li class="description">Coca-cola hank haron bottle</li>
+                        <li class="cost">$9.95</li>
+                    </ul>
+                    <button class="btn buy">Buy now</button>
+                </div>
+                <div class="box-product">
+                    <h3 class="product-title">Mug</h3>
+                    <ul>
+                        <li class="description">Holiday personalized polar bear mug</li>
+                        <li class="cost">$19.95</li>
+                    </ul>
+                    <button class="btn buy">Buy now</button>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+</body>
